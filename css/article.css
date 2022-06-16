@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    margin: 0px;
+}
+.container{
+    width: 1260px;
+    padding: 0px 30px;
+    margin: 0px auto;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.header{
+    background: #F6F6F9;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+}
+.logo{
+    margin-left: -7px;
+}
+.currency-list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.currency{
+    margin: 0px 10px;
+    color: #7A7A7A;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.icon{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #285193;
+  
+}
+.button-box{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.button-glass{
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    padding: 8px;
+}
+.button-flag{
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.flag{
+    border-radius: 50%;
+}
+.button-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin-left: 23px;
+}
+.link-inner{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 7px;
+}
+.nav{
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    padding: 22px 0px;
+    margin-bottom: 18px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+}
+.header-img{
+    width: 1200px;
+    height: 99px;
+    cursor: pointer;
+}
+.img{
+    padding-bottom: 23px
+}

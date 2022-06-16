@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    margin: 0px;
+}
+.container{
+    width: 1260px;
+    padding: 0px 30px;
+    margin: 0px auto;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.header{
+    background: #F6F6F9;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+}
+.logo{
+    margin-left: -7px;
+}
+.currency-list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.currency{
+    margin: 0px 10px;
+    color: #7A7A7A;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.icon{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #285193;
+  
+}
+.button-box{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.button-glass{
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    padding: 8px;
+}
+.button-flag{
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.flag{
+    border-radius: 50%;
+}
+.button-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin-left: 23px;
+}
+.link-inner{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 7px;
+}
+.nav{
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    padding: 22px 0px;
+    margin-bottom: 18px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+}
+.header-img{
+    width: 1200px;
+    height: 99px;
+    cursor: pointer;
+}
+.img{
+    padding-bottom: 23px
+}
+.hero-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0px;
+    margin-bottom: 12px;
+  }
+  .hero-inside{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  .form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+  }
+  .label{
+    margin-bottom: 20px;
+  
+  }
+  .input{
+    width: 100%;
+    background: rgba(241, 241, 241,0.3);
+    border: 2px solid rgba(40, 81, 147,0.3);
+    border-radius: 5px;
+    padding: 15px 5px 15px 16px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #202020;
+    outline: none;
+  }
+  .input::placeholder{
+    color: #888888;
+  }
+  .input:focus{
+    border: 2px solid rgba(40, 81, 147,0.6);
+  }
+  .textarea{
+    height: 300px;
+    resize: none;
+  }
+  .file{
+    width: auto;
+  }
+  .code{
+    width: 220px;
+  }
+  .file-label{
+    width: 420px;
+  }
+  .button{
+    width: 220px;
+    padding: 15px 5px;
+    background-color: #295093;
+    border: 2px solid rgba(40, 81, 147, 0.54);
+    border-radius: 5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .card{
+    width: 510px;
+    padding: 25px;
+    border: 2px solid #BCC3CD;
+    border-radius: 5px;
+    box-shadow: -8px 8px 9px rgba(57, 57, 57, 0.25);
+  }
+  .card-logo{
+    width: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: -10px;
+  }
+  .card-list{
+    margin: 0px;
+    padding: 0px;
+  }
+  .card-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-name{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+  }
+  .web-link{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+    text-decoration: none;
+  }
+  .card-sublist{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .sublist{
+    list-style: none;
+    margin-left: 13px;
+  }
+  .tg-link{
+    width: 140px;
+    padding: 6px 5px;
+    background: #295091;
+    border-radius: 5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .tg-span{
+    margin-left: auto;
+  }
+  .sublist-link{
+    list-style: none;
+  }
+  .sub{
+    margin-left: 10px;
+  }
+  
+  
+  
+  .footer{
+    background-color: #295093;
+    padding: 20px 0px;
+  }
+  .footer-top{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: #133C82 solid 3px;
+  }
+  .footer-logo{
+    margin-right: auto;
+  }
+  .footer-top-describe{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-right: 17px;
+  }
+  .telegram-link{
+    width: 135px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    padding: 9px 3px 9px 9px
+  }
+  .link-span{
+    margin-left: 3px;
+  }
+  .footer-bottom{
+    display: flex;
+    padding-top: 20px;
+  }
+  .footer-desc{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 0px;
+  }
+  .text-box{
+    width: 365px;
+  }
+  .top{
+    margin-bottom: 15px;
+  }
+  .footer-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 115px;
+  }
+  .footer-item{
+    margin-bottom: 10px;
+  }
+  .footer-link{
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
